@@ -1,0 +1,36 @@
+.sortButtons {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .button {
+    background-color: #ff652f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #ff3b0a;
+  }
+  
+  .active {
+    background-color: #ffa040;
+  }
+  
+  .itemList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categoryHeader {
+    color: #ffa040;
+    text-transform: capitalize;
+    margin: 10px 0;
+  }
+  
