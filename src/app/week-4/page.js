@@ -1,5 +1,7 @@
 // /app/week-4/page.js
-import NewItem from './new-item';
+
+import NewItem from "./new-item";
+
 
 export default function Week4() {
   return (

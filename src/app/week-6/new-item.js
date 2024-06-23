@@ -1,9 +1,9 @@
-// /app/week-4/new-item.js
+// /app/week-6/new-item.js
 'use client';
 
 import { useState } from 'react';
 
-export default function NewItem() {
+export default function NewItem({ onAddItem }) {
   const [name, setName] = useState('');
   const [quantity, setQuantity] = useState(1);
   const [category, setCategory] = useState('produce');
@@ -11,8 +11,8 @@ export default function NewItem() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const item = { name, quantity, category };
-    console.log(item);
     alert(`Item added: \nName: ${name}\nQuantity: ${quantity}\nCategory: ${category}`);
+    onAddItem(item);
     setName('');
     setQuantity(1);
     setCategory('produce');
@@ -30,7 +30,6 @@ export default function NewItem() {
           required
           className="mt-1 p-2 block w-full border border-gray-300 rounded-md"
           style={{ color: 'black' }}
-
         />
       </div>
       <div className="mb-4">
