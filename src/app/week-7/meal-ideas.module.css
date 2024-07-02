@@ -1,0 +1,40 @@
+.mealList {
+    list-style: none;
+    padding: 0;
+    margin-left: 40px;
+  }
+  
+  .mealItem {
+    margin-bottom: 10px;
+
+  }
+  
+  .mealName {
+    cursor: pointer;
+    color: #eaeaea;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    
+  }
+  
+ 
+  .mealIng{
+    background-color:#1a1a2e;
+    padding: 2px;
+  }
+ .mealIng:hover{
+  background-color:rgb(195, 90, 15)
+ }
+  
+  .heading{
+    font-size: 20px;
+    margin-left :40px; 
+  }
+  .ingredientsList {
+    list-style: none;
+    padding-left: 20px;
+    
+
+  }
+  
