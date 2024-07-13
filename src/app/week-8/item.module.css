@@ -1,0 +1,22 @@
+.item {
+    background-color: #1a1a2e;
+    color: #eaeaea;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+  }
+.item:hover{
+  background-color:rgb(195, 90, 15);
+  cursor:pointer;
+}
+  
+  .itemName {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .itemDetails {
+    font-size: 14px;
+    color: #a1a1a1;
+  }
+  

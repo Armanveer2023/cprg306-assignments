@@ -1,0 +1,26 @@
+.main {
+    background-color: #0f0f1e;
+    color: #eaeaea;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .container{
+    display: flex;
+  }
+  .githubButton{
+    border:3px white solid;
+    padding: 10px;
+    background-color: green;
+    color:white
+  }
+  .signOutButton{
+    border:3px white solid;
+    padding: 10px;
+    background-color: rgb(213, 92, 22);
+    color :white
+  }
